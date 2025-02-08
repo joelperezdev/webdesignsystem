@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('./resources/fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./resources/fonts/Roboto_Condensed-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'worksans';
+    src: url('./resources/fonts/WorkSans-Regular.ttf') format('ttf');
+}
+
+.box {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0px 10%;
+    background-color: #e5e5e558;
+}
+ 
+div {
+    display: block;
+}
+
+.color-sample {
+    width: 100%;
+}
+
+.color-box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.ox-blue {
+    background-color: #14213D;
+    color: white;
+}
+
+.orange {
+    background-color: #FCA311;
+    color: white;
+}
+
+.platinum {
+    background-color: #E5E5E5;
+    color: black;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.of-fonts {
+    display: block;
+}
+
+.font-block {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.montserrat {
+    font-family: 'montserrat';
+}
+
+.roboto {
+    font-family: 'roboto';
+}
+
+.worksans {
+    font-family: 'worksans';
+}
