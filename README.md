@@ -1,2 +1,2 @@
 # webdesignsystem
-Web Design System
+Joel Perez web design system
